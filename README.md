@@ -1,6 +1,8 @@
 # SafeChat 💬
 SafeChat is a open-source and secure chat app that prioritizes security in every aspect. It's easy to use and provides a platform for the secure exchange of confidential data.
 
+![Alt text](loginpage.png)
+
 ## **What it does**
 SafeChat provides a secure and user-friendly chat platform that protects user privacy and confidentiality. It is designed to keep user data secure at all times, and all communications are encrypted using the latest security protocols.
 
