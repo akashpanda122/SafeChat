@@ -15,6 +15,22 @@ To handle data transmission, I used Socket.io. Socket.io is a library that makes
 
 Overall, SafeChat was built using a combination of powerful frontend and backend technologies that work together to create a secure and user-friendly chat app.
 
+## Challenges we ran into
+Overall, building a messaging web app like SafeChat was a complex and challenging task, requiring careful planning, attention to detail, and a thorough understanding of web development and security principles.
+
+## Accomplishments that we're proud of
+Overall, building a messaging web app like SafeChat was challenging but rewarding experience, providing developers with the opportunity to create a platform that enables secure communication and enhances the user experience.
+
+## What we learned
+**Web development skills:** Building a web app like SafeChat requires a strong understanding of web development principles, including HTML, CSS, JavaScript, and server-side programming languages nodeJs, express and socket.io.
+
+## What's next for SpyChat
+    - Fix bugs
+    - we also plan to integrate blockchain technology to enhance the security of SpyChat. This will provide an additional layer of security, making it even more difficult for attackers to compromise user data
+    - When a user leaves the chat, it only closes on one end, and other users can still see past messages. I would like to implement a “end-chat” function, that automatically runs as soon as a user leaves.
+    - Similar to what some other chat apps have, I would like to integrate a message expiry feature, where messages disappear after a fixed set of time if inactivity is detected, so all potentially important messages are not compromised
+    - Add a better chat system based on Markdown, that supports links, images, emoji (using Twemoji), and more. As of now, SafeChat only supports plain text.
+
 ## **Built With**
 
 - css3
@@ -25,3 +41,7 @@ Overall, SafeChat was built using a combination of powerful frontend and backend
 - socket.io
 
 [![Tech Stack](https://skills.thijs.gg/icons?i=css,html,js,nodejs,jquery&theme=dark)](https://skills.thijs.gg)
+
+## Try it out
+    - [SafeChat](https://safechat-dun.vercel.app/)
+    - [GitHub Repo](https://github.com/akashpanda122/SafeChat)
