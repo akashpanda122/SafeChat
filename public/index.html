@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>login Page!</title>
+</head>
+<body>
+
+     <div class="login">
+        <div class="login_content">
+            <div class="login_img">
+                <img src="mobile-chatting-app.png" alt="">
+            </div>
+            <div class="random">
+           <div class="login_forms">    
+               <form action=""  class="login_registre"  id="loginIn"></form>
+               
+                   <h1 class="login_title">Welcome to SafeChat</h1>
+                 
+                    <h4>Please enter Name and Room Id</h4>
+                    <div class="login_box" > 
+                     <input type="text" placeholder="Username" id="username" class="login_input">
+                    </div>
+
+                    <div class="login_box" > 
+                     <input type="Password" placeholder="Room(Join or create Room)"  class="login_input">
+                    </div>
+                
+                    <a href="chat.html" class="Join_Room">Join Room</a>
+                     
+                    <div class="Generate_Room_ID">
+                      <a href="#" class="Generate_RoomId" id="Generate">Need a secure room? Generate a Room Id</a>
+                    </div>
+                </div>
+              </form>
+
+           </div>
+        </div>
+     </div>
+
+     <script src="/socket.io/socket.io.js"></script>
+     <script src="js/main.js"> </script>
+</body>
+</html>

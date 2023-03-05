@@ -1,0 +1,24 @@
+{
+  "name": "safechat-1",
+  "version": "1.0.0",
+  "description": "SafeChat is a open-source and secure chat app that prioritizes security in every aspect. It's easy to use and provides a platform for the secure exchange of confidential data.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashpanda122/SafeChat.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akashpanda122/SafeChat/issues"
+  },
+  "homepage": "https://github.com/akashpanda122/SafeChat#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "socket.io": "^4.6.1"
+  }
+}
